@@ -1,4 +1,6 @@
 
+HLC fans is a global open source community, focusing on blockchain technology exchange and promotion,especially block-DAG technology.
+
 ## 如何写文章
 
 本 github 仓库与 HLC fans 官网直接对应。在本仓库中做的改动会立即体现在官网上（不过一般因为Jekyll需要时间构建或是缓存方面的缘故，可能会有一段时间的延迟）。
