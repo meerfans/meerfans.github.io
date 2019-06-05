@@ -15,7 +15,7 @@ keep_files:
 
 # Site settings
 title: HLCfans
-subtitle: " "
+subtitle: Blockchain Technology Popularization
 url: https://hlcfans.github.io/ # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl:
