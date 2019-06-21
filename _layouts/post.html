@@ -1,0 +1,43 @@
+---
+layout: page
+---
+
+<div class="post">
+  <!-- Wrapper Start -->
+  <section id="intro" style="border: 1px dotted #ddd;">
+    <div class="container">
+      <div class="row">
+        <div>
+          <div class="block">
+            <h1>{{ page.title }}</h1>
+            <div class="post-info-wrapper">
+              <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
+            </div>
+            <hr />
+            <p>{{ content }}</p>
+
+            <div id="disqus_thread"></div>
+            <script>
+              var disqus_shortname = '{{ site.disqus_shortname }}';
+              var disqus_config = function () {
+                this.page.url = "{{ page.url | prepend: site.url }}";
+                this.page.identifier = "{{ page.id }}";
+              };
+              (function() {  // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+    </div>
+  </section>
+</div>
+<p class="center-text" style="padding: 30px;">
+  <a href="{{ site.baseurl }}/blog">Back to blog</a>
+</p>
