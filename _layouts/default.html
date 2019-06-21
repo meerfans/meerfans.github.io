@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html class="no-js">
-  <head>
+{% include topcomment.html %}
+<html lang="{{ site.lang }}">
 
-    {% include head.html %}
+  {% include head.html %}
 
-  </head>
   <body>
 
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
 
-    {% include header.html %}
+      {% include header.html %}
 
+      <!-- <article{%
+        if page.background-image %} id="main"{%
+        elsif page.options contains 'minihead' %} id="minihead"{%
+        else %} id="standard"{%
+        endif %}>
 
-    {{ content }}
+        {% include header-inner.html %}
 
+        {{ content }}
 
+      </article> -->
 
+      {% include footer.html %}
 
+      {% include scripts.html %}
 
+    </div>
 
+  </body>
 
-
-
-    {% include footer.html %}
-
-    </body>
 </html>
