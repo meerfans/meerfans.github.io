@@ -23,8 +23,8 @@ introDetail: HLC fans is a global open source community, focusing on <br/>blockc
 # - title for your menus parts
 
 menu:
-  - title : doc
-    href: ''
+  - title : Forum
+    href: 'http://hlctalk.org'
   - title : blob
     href: ''
   - title : doc

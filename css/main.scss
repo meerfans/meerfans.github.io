@@ -185,7 +185,7 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		// text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
 
@@ -388,7 +388,7 @@ input, select, textarea {
 		letter-spacing: 0.2rem;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		// text-transform: uppercase;
 	}
 
 	input[type="text"],
@@ -1033,7 +1033,7 @@ input, select, textarea {
 		padding: 0 1.25rem 0 1.35rem;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		// text-transform: uppercase;
 		white-space: nowrap;
 	}
 
@@ -1145,7 +1145,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.1), rgba(19, 21, 25, 0.1)), url("../../images/overlay.png");
 			background-size: auto,400px 400px;
 			// background-size: cover;
 			background-position: center,center;
@@ -1162,7 +1162,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.1), rgba(19, 21, 25, 0.1)), url("../../images/bg.jpg");
 			// background-size: cover;
 			background-size: auto,350px 350px;
 			background-position: center center;
@@ -1276,7 +1276,7 @@ input, select, textarea {
 			margin-top: 3.5rem;
 		}
 
-			#header > *:before {
+			.content:before {
 				content: '';
 				display: block;
 				position: absolute;
@@ -1337,9 +1337,9 @@ input, select, textarea {
 				}
 
 			#header .content p {
-				text-transform: uppercase;
+				// text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1rem;
 				line-height: 2;
 			}
 
@@ -1370,9 +1370,9 @@ input, select, textarea {
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
-					text-transform: uppercase;
+					// text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					font-size: 1rem;
 					border-bottom: 0;
 				}
 
@@ -1649,7 +1649,7 @@ input, select, textarea {
 			font-size: 0.6rem;
 			opacity: 0.75;
 			margin-bottom: 0;
-			text-transform: uppercase;
+			// text-transform: uppercase;
 		}
 
 		body.is-article-visible #footer {
