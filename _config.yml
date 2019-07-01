@@ -5,7 +5,7 @@ description: _description_
 owner:
   name: _your name_ # or company name
   url: "http://example.com" # your URL
-first_published: 2010 # if migrating another site, the year of your first publish
+first_published: 2019 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
 # url: "http://example.com" # the base hostname & protocol for this site
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -24,11 +24,11 @@ introDetail: HLC fans is a global open source community, focusing on <br/>blockc
 
 menu:
   - title : DOCS
-    href: ''
+    href: 'https://halalchain.github.io/docs'
   - title : Blog
     href: ''
   - title : News
-    href: ''
+    href: 'https://f-labs.github.io/MLSNews/'
   - title : Community
     href: 'http://hlctalk.org'
 
